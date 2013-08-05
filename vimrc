@@ -143,3 +143,6 @@ nmap <C-N><C-N> :set invnumber
 "set nocompatible
 "syntax enable
 "let vimrplugin_screenplugin = 1
+
+" Press Space to turn off highlighting and clear any message already displayed.
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
